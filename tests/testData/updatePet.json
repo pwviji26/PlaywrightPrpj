@@ -1,0 +1,18 @@
+{
+  "id": 548661,
+  "category": {
+    "id": 548661,
+    "name": "kangs name"
+  },
+  "name": "Parrot",
+  "photoUrls": [
+    "kangs url"
+  ],
+  "tags": [
+    {
+      "id": 548661,
+      "name": "kangs tag 548661"
+    }
+  ],
+  "status": "available"
+}

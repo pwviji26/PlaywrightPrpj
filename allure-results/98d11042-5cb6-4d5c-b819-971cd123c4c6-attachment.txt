@@ -1,0 +1,3 @@
+Product to be Deleted:Nexus
+No of Rows Before Deletion: 3
+No of Rows After Deletion: 2

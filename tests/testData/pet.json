@@ -1,0 +1,22 @@
+{
+  "id": 0,
+  "category": {
+    "id": 85,
+    "name": "Parrot"
+  },
+  "name": "Sweetie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "companion"
+    },
+ {
+      "id": 1,
+      "name": "Yellow"
+    }
+  ],
+  "status": "available"
+}

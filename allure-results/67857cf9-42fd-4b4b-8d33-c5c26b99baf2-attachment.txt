@@ -1,0 +1,2 @@
+Total Amount in Cart:1180
+Order Details:Id: 2500983Amount: 1180 USDCard Number: 3455 5678 2345 1235Name: VijiDate: 19/4/2026

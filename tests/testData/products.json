@@ -1,0 +1,18 @@
+{
+
+    "products": [
+    {"productName": "Samsung galaxy s6"},
+    {"productName": "Nokia lumia"},
+    {"productName": "Nexus"}
+],
+
+    "address":
+        {"Name":"Viji",
+        "Country":"India", 
+        "City":"Chennai",
+        "CreditCard":"3455 5678 2345 1235",
+        "Month":"12",
+        "Year":"2027"}
+
+    
+}
