@@ -31,10 +31,9 @@ await page.waitForTimeout(3000)
 await expect(page.getByRole('button',{name:'Playwright'})).toBeVisible()
     })
 
-test.only('Record the HAR file',async({page})=>{
+test('Record the HAR file',async({page})=>{
 // Record the HAR file from Network Layer
-// await page.route('https://conduit-realworld-example-app.fly.dev/api/tags',async route =>
-// { 
+
    await page.routeFromHAR('./har/tags.har', {
     url:'https://conduit-realworld-example-app.fly.dev/api/tags',
     update: true
@@ -44,7 +43,7 @@ test.only('Record the HAR file',async({page})=>{
 })
 
 //Modify the HAR file before reading it
-test('Read the HAR file',async({page})=>{
+test.only('Read the HAR file',async({page})=>{
 
    await page.routeFromHAR('./har/tags.har', {
     url:'https://conduit-realworld-example-app.fly.dev/api/tags',
