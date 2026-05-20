@@ -11,7 +11,8 @@ test.describe.only('Web Tables Test',()=>{
         console.log('No of Rows:', tableRows.length)
         tableRows.forEach(async(rows)=>{
             console.log('No of Columns:',await rows.locator('td').count())
-            
+            //Included for CR005
+            expect(tableRows.length).toBe(4)
         })
 
     })
