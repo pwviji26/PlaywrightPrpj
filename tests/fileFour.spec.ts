@@ -11,5 +11,6 @@ test('To get details of user- change made in phase2 branch',async({page})=> {
         const txts=await rowData.evaluateAll(cols=>
             cols.map(element=>element.textContent));
             console.log('All Columns value:',txts)
+            console.log(rowData)
 })
 })
