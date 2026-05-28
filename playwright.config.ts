@@ -76,16 +76,16 @@ export default defineConfig({
 //     },
    
 
-  {
-      name: 'Logout App', 
-      testMatch:'**/*.teardown.ts', 
-      use: { 
-        ...devices['Desktop Chrome'] ,
-        storageState: STORAGE_STATE
+  // {
+  //     name: 'Logout App', 
+  //     testMatch:'**/*.teardown.ts', 
+  //     use: { 
+  //       ...devices['Desktop Chrome'] ,
+  //       storageState: STORAGE_STATE
     
-      },
+  //     },
     
-    },
+  //   },
 
   // {
   //     name: 'chromium',
@@ -94,16 +94,16 @@ export default defineConfig({
   //     storageState:STORAGE_STATE
   //     },
   // },
-    {
-      name: 'chromium-Demoblaze',  
-      use: { 
-        ...devices['Desktop Chrome'] ,
-        storageState: STORAGE_STATE
+    // {
+    //   name: 'chromium-Demoblaze',  
+    //   use: { 
+    //     ...devices['Desktop Chrome'] ,
+    //     storageState: STORAGE_STATE
     
-      },
-      testMatch:'**/demoBlaze.spec.ts',
-      // dependencies:['setup'], 
-    },
+    //   },
+    //   testMatch:'**/demoBlaze.spec.ts',
+    //   // dependencies:['setup'], 
+    // },
 
     // {
     //   name: 'chromium',  
@@ -117,10 +117,10 @@ export default defineConfig({
     // },
    
 
-    // {
-    //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'] },
-    // },
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
 
     // {
     //   name: 'firefox',

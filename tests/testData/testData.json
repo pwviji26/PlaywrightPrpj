@@ -1,0 +1,50 @@
+{
+  "baseUrl": "https://www.saucedemo.com",
+  "password": "secret_sauce",
+
+  "users": {
+    "standard":         { "username": "standard_user",          "expectLogin": true,  "timeout": 10000 },
+    "locked":           { "username": "locked_out_user",         "expectLogin": false, "timeout": 10000, "errorMessage": "Sorry, this user has been locked out." },
+    "problem":          { "username": "problem_user",            "expectLogin": true,  "timeout": 10000 },
+    "performanceGlitch":{ "username": "performance_glitch_user", "expectLogin": true,  "timeout": 30000 },
+    "error":            { "username": "error_user",              "expectLogin": true,  "timeout": 10000 },
+    "visual":           { "username": "visual_user",             "expectLogin": true,  "timeout": 10000 }
+  },
+
+  "products": [
+    {
+      "name":       "Sauce Labs Backpack",
+      "dataTestId": "add-to-cart-sauce-labs-backpack",
+      "removeId":   "remove-sauce-labs-backpack",
+      "price":      29.99
+    },
+    {
+      "name":       "Sauce Labs Bike Light",
+      "dataTestId": "add-to-cart-sauce-labs-bike-light",
+      "removeId":   "remove-sauce-labs-bike-light",
+      "price":      9.99
+    }
+  ],
+
+  "checkout": {
+    "customer": {
+      "firstName":  "John",
+      "lastName":   "Doe",
+      "postalCode": "10001"
+    },
+    "taxRate": 0.08,
+    "expectedSubtotal": "$39.98",
+    "expectedTax":      "$3.20",
+    "expectedTotal":    "$43.18",
+    "payment":          "SauceCard #31337",
+    "shipping":         "Free Pony Express Delivery!"
+  },
+
+  "messages": {
+    "loginError":         "Username and password do not match",
+    "emptyUsernameError": "Username is required",
+    "emptyFirstName":     "First Name is required",
+    "orderConfirmHeader": "Thank you for your order!",
+    "orderConfirmText":   "Your order has been dispatched"
+  }
+}
